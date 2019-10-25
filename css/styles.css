@@ -16,7 +16,7 @@ body {
 .nav-list {
     float: right;
     margin-right: 40px;
-    border: black 3px;
+    border: maroon 3px;
     border-style: double;
 }
 
