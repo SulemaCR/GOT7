@@ -1,0 +1,45 @@
+.contact-section {
+    height: 500px;
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+    /* take out position for float */
+}
+
+.contact-box {
+    height: 525px;
+    width: 50%;
+    border: 3px solid yellow;
+    position: absolute;
+    /* float: left
+    margin-left: 55px; 
+    margin-top: 20px;*/
+}
+
+.map {
+    left: 70px;
+}
+
+.form {
+    right: 70px;
+}
+
+.contact-header {
+    background-color: aquamarine;
+    border: 3px solid blueviolet;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 130px;
+    left: 42%;
+}
+
+.contact-header h2 {
+    font-family: cursive;
+    font-weight: 600;
+    text-align: center;
+}
+
+.map {
+    text-align: top;
+}

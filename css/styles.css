@@ -1,0 +1,165 @@
+body {
+    margin: 0 auto;
+    background-color: #3c6b4c;
+}
+
+.nav-bar {
+    background-color: #143940;
+    height: 88px;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 40px;
+    border: black 3px;
+    border-style: double;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+}
+
+.list-item {
+    display: inline;
+    padding: 50px;
+    color: white;
+}
+
+.logo {
+    height: 88px;
+}
+
+.main {
+    height: 700px;
+    width: 100%;
+}
+.main-img {
+    height: 1000px;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.section-img, .section-p {
+    height: 500px;
+    width: 550px;
+    border: lightgreen;
+}
+
+.card-mark {
+    height: 500px;
+    width: 500px;
+}
+
+.footer {
+    background-color: #599e98;
+    height: 70px;
+    width: 100%;
+}
+
+.footer-div {
+    width: 33%;
+}
+
+footer-input input {
+    height: 30px;
+    width: 330px;
+}
+
+.footer-input button {
+    height: 30px;
+    width: 55px;
+}
+footer-input input, footer-input button {
+    height: 10px;
+    width: 30px;
+}
+
+button {
+    display: inline-block;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-box {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 250;
+    left: 50%;
+}
+
+.main {
+    height: 1400px;
+    width: 100%;
+    background-image: ;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    position: relative;
+}
+
+.fab {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+
+/************* About Styles *************/
+
+.container {
+    height: 700px;
+    width: 100%;
+}
+
+.container-box {
+    height: 650px;
+    width: 30%;
+    border: 3px solid rgba(37,71,166, .5);
+    float: left;
+    margin-left: 30px;
+}
+
+.container-box.jpg {
+    height: 300px;
+    
+}
+
+.container-box p {
+    text-align: left;
+}
+.container-box.jpg,.container-box audio, .container-box iframe {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-header {
+    background-color: orange;
+    color: magenta;
+    position: absolute;
+    top: 150px;
+    left: 44%;
+}
+
+.about-header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
